@@ -20,6 +20,7 @@ a {
 }
 
 .logo {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -72,35 +73,31 @@ a {
 
 .button-mainpage {
   font-family: inherit;
-  border-radius: 4px;
-  padding: 16px 32px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #fff;
 }
 
-.button-mainpage:hover {
+.button-mainpage:hover,
+.button-mainpage:focus {
   background: #404bbf;
 }
 
 .visually-hidden {
   position: absolute;
-  width: 1px;
-  height: 1px;
   margin: -1px;
   border: 0;
-  padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
 
-.tilte-h3 {
+.tilte-list {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -115,11 +112,12 @@ a {
   color: #434455;
 }
 
-.tilte-h2 {
+.tilte-our-team {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -128,16 +126,10 @@ a {
 }
 
 .our-team-card {
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
 
-.section-three-title {
+.ourteam-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -146,7 +138,7 @@ a {
   color: #2e2f42;
 }
 
-.section-three-text {
+.ourteam-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -154,15 +146,16 @@ a {
   color: #434455;
 }
 
-.our-portfolio {
+.title-ourportfolio {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
-.our-portfolio-card {
+.card-ourportfolio {
   background: #fff;
 }
 
