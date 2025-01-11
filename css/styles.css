@@ -19,7 +19,7 @@ a {
   background-color: #ffffff;
 }
 
-.logo-style {
+.logo {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -28,12 +28,7 @@ a {
   color: #4d5ae5;
 }
 
-.logo-studio {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.header-logo .logo-part {
   color: #2e2f42;
 }
 
@@ -190,12 +185,11 @@ a {
   background: #2e2f42;
 }
 
-.logo-footer {
+.footer-logo .logo-part {
   color: #f4f4fd;
 }
 
 .footer-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
