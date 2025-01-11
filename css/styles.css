@@ -1,10 +1,11 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
-  background-color: #fafafa;
+  color: #434455;
+  background-color: #fff;
 }
 
-ul {
+ul,
+ol {
   list-style-type: none;
 }
 
@@ -12,22 +13,15 @@ a {
   text-decoration: none;
 }
 
-.header-one {
+.pege-header {
   font-family: 'Roboto', sans-serif;
   color: #2e2f42;
   background-color: #ffffff;
 }
 
 .logo-style {
-  font-family: 'Raleway', serif;
-  text-transform: uppercase;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.logo-web {
   font-weight: 700;
-  font-size: 1.12rem;
+  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -36,14 +30,14 @@ a {
 
 .logo-studio {
   font-weight: 700;
-  font-size: 1.12rem;
+  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
 }
 
-.header-navi {
+.nav-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -51,20 +45,22 @@ a {
   color: #2e2f42;
 }
 
-.header-email {
+.contacts {
+  font-style: normal;
+}
+
+.address-contacts {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
   color: #434455;
 }
 
-.header-tel {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  font-style: normal;
-  color: #434455;
+.address-contacts:hover,
+.address-contacts:focus,
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
 }
 
 .section-one {
@@ -94,16 +90,6 @@ a {
 
 .button-mainpage:hover {
   background: #404bbf;
-}
-
-.header-email:hover,
-.header-email:focus {
-  color: #404bbf;
-}
-
-.header-tel:hover,
-.header-tel:focus {
-  color: #404bbf;
 }
 
 .visually-hidden {
@@ -200,8 +186,12 @@ a {
   color: #434455;
 }
 
-.footer-end {
+.page-footer {
   background: #2e2f42;
+}
+
+.logo-footer {
+  color: #f4f4fd;
 }
 
 .footer-text {
@@ -209,14 +199,5 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
-}
-
-.logo-studio-footer {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #f4f4fd;
 }
